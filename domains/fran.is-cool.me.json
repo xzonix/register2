@@ -1,0 +1,32 @@
+{
+    "domain": "is-cool.me",
+    "subdomain": "fran",
+
+    "owner": {
+        "username": "xzonix",
+        "email": "xz1@dr.com"
+    },
+
+    "records": {
+        "A": ["185.199.110.153", "185.199.109.153", "185.199.108.153", "185.199.111.153"],
+        "MX": [
+                {
+            "priority": 10,
+            "value": "mx1.improvmx.com"
+        },
+
+        {
+            "priority": 20,
+            "value": "mx2.improvmx.com"
+        }
+            ],
+        "TXT": [
+            {
+                "name": "@",
+                "value": "v=spf1 include:spf.improvmx.com ~all"
+            }
+        ]
+    },
+
+    "proxied": false
+}
